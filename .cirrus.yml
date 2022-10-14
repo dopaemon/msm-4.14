@@ -33,7 +33,7 @@ task:
   container:
     image: dopaemon/focal:latest
     cpu: 4
-    memory: 8G
+    memory: 10G
 
   clone_script:
     - git clone -j$(nproc --all) --depth=1 https://github.com/dopaemon/msm-4.14.git ~/msm-4.14 -b sweet --single-branch
